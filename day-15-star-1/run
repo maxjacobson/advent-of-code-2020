@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+stack build --pedantic --fast
+stack exec aoc-exe
